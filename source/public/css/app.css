@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body {
+  background-color: white;
+}
+
+.postscript {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  font-family: "Handlee", cursive;
+  font-size: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  /* Điều chỉnh khoảng cách từ bottom để tránh che phủ nội dung dưới */
+  gap: 10px;
+  user-select: none;
+  transition: none;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  /* Thêm viền xung quanh với độ dày là 1px và màu đen */
+  padding: 5px;
+  /* Thêm khoảng đệm để tạo khoảng trắng xung quanh nội dung */
+}
+
+/*Table*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resources/scss/app.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22;AAEA;EACE;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;AACA;EACA;EACA;EACA;EACA;EACA;EACA;AACA;EACA;AACA;;;AAEF;AACA;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA%22,%22file%22:%22app.css%22%7D */

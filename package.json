@@ -1,0 +1,41 @@
+{
+  "name": "nodejs_idkw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source\\index.js",
+  "scripts": {
+    "beautiful": "prettier --single-quote --trailing-comma all --write 'source/**/*.{js,json,scss}'",
+    "start": "nodemon --inspect .\\source\\index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass  --embed-source-map --watch source\\resources\\scss\\app.scss source\\public\\css\\app.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UruiE/nodejs_idkw.git"
+  },
+  "keywords": [
+    "UruiE",
+    "deptrai",
+    "nguyhiem"
+  ],
+  "author": "UruiE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UruiE/nodejs_idkw/issues"
+  },
+  "homepage": "https://github.com/UruiE/nodejs_idkw#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "sass": "^1.69.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  }
+}
